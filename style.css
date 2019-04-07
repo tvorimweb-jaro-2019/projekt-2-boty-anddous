@@ -3,7 +3,9 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 body {
-    text-rendering: optimizeLegibility;
+		text-rendering: optimizeLegibility;
+		width: 670px;
+		height: 440px;
 }
 
 /*
@@ -21,3 +23,138 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.zbozi {
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	width: 670px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 5px 3px rgba(135,135,135,1);
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.vizual {
+	float: left;
+	width: 50%;
+	border-top-left-radius:     4px 4px;
+	border-bottom-left-radius:    4px 4px;
+	background: rgba(6,215,194,1);
+	background: -moz-linear-gradient(top, rgba(6,215,194,1) 0%, rgba(79,204,73,1) 55%, rgba(79,204,73,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(6,215,194,1)), color-stop(55%, rgba(79,204,73,1)), color-stop(100%, rgba(79,204,73,1)));
+	background: -webkit-linear-gradient(top, rgba(6,215,194,1) 0%, rgba(79,204,73,1) 55%, rgba(79,204,73,1) 100%);
+	background: -o-linear-gradient(top, rgba(6,215,194,1) 0%, rgba(79,204,73,1) 55%, rgba(79,204,73,1) 100%);
+	background: -ms-linear-gradient(top, rgba(6,215,194,1) 0%, rgba(79,204,73,1) 55%, rgba(79,204,73,1) 100%);
+	background: linear-gradient(to bottom, rgba(6,215,194,1) 0%, rgba(79,204,73,1) 55%, rgba(79,204,73,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06d7c2', endColorstr='#4fcc49', GradientType=0);
+	/* padding: 5px; */
+	}
+
+.logo {
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+
+.slogan {
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	position: relative;
+	top: 60px;
+	left: 30px;
+
+}
+
+.bota {
+	position: relative;
+	left: -90px;
+	top: 50px;
+}
+
+.cenovka {
+	color: white;
+	position: relative;
+	right: 30px;
+	bottom: 30px;
+	text-align: right;
+}
+
+.cena {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.zaruka {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.detaily {
+	float: left;
+	max-width: 50%;
+	padding: 30px 30px 0px 30px;
+	margin: 0px;
+}
+
+.nazev {
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.produkt {
+	color: grey;
+}
+
+.popis {
+	padding: 30px 0px 30px 0px;
+	border-bottom: 1px solid #06d7c1;
+}
+
+.parametr {
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 30px;
+	}
+
+.velikosti li {
+	display: inline-block;
+	color: black;
+	margin-top: 5px;
+	padding-inline-start: 0px;
+	}
+
+.velikosti a {
+	text-decoration: none;
+	margin-right: 8px;
+	color: black;
+	padding: 5px;
+}
+
+.velikosti a:hover, .velikosti a:focus {
+	border: 1px solid rgb(240, 116, 15);
+	border-radius: 50%;
+	color: rgb(240, 116, 15);
+}
+
+.kosik {
+	display: block;
+	position: relative;
+	bottom: -40px;
+	width: 50%;
+	text-align: center;
+	background-color: rgb(240, 116, 15);
+	border-radius: 4%;
+	box-shadow: 0px 2px 5px 3px rgba(135,135,135,1);
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.kosik a {
+	text-decoration: none;
+	color: white;
+}
+
